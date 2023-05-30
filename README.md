@@ -54,7 +54,7 @@ In the terminal, run the command `php s3.php` to send the backup to S3.
 
 # S3 Backup Python
 
-<img style="width: 150px;" src="../img/python.png">
+<img style="width: 150px;" src="img/python.png">
 
 ## Gereksinimler
 
