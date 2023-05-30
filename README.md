@@ -24,8 +24,6 @@ Bu repo, sitenizin yedeklemesini alıp Amazon S3'ye yüklemek için kullanılır
 `/path/to/your/directory` kısmını dizininizin gerçek yoluna göre güncelleyin.
 Terminalde, `php s3.php` komutunu çalıştırarak yedeklemeyi S3'ye gönderin.
 
-<hr>
-
 # EN
 
 This repository is used to take a backup of your website and upload it to Amazon S3.
