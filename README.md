@@ -1,4 +1,6 @@
-# S3 Backup
+# S3 Backup PHP
+
+<img style="width: 150px;" src="img/php.png">
 
 Bu repo, sitenizin yedeklemesini alıp Amazon S3'ye yüklemek için kullanılır.
 
