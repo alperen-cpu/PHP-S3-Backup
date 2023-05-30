@@ -49,3 +49,48 @@ Update the `AWS_ACCESS_KEY`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION`, and `AWS_BUC
 
 Update `/path/to/your/directory` with the actual path to your directory.
 In the terminal, run the command `php s3.php` to send the backup to S3.
+
+<hr>
+
+# S3 Backup Python
+
+<img style="width: 150px;" src="../img/python.png">
+
+## Gereksinimler
+
+- Python 3 veya daha yeni bir sürüm
+- AWS hesabı ve erişim anahtarları
+
+## Kurulum
+
+1. Proje dizinine gidin ve terminalde `pip3 install boto3` komutunu çalıştırarak bağımlılıkları yükleyin.
+
+## Yapılandırma
+
+1. `s3.py` dosyasını açın.
+2. `AWS_ACCESS_KEY`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION` ve `AWS_BUCKET_NAME` sabitlerini AWS erişim anahtarlarınız ve S3 bilgilerinizle güncelleyin.
+
+## Kullanım
+
+`/path/to/your/directory` kısmını dizininizin gerçek yoluna göre güncelleyin.
+Terminalde, `python3 s3.py` komutunu çalıştırarak yedeklemeyi S3'ye gönderin.
+
+<hr>
+
+# S3 Backup Bash
+
+<img style="width: 75px;" src="img/bash.png">
+
+## Kurulum
+
+1. Proje dizinine gidin ve terminalde `aws configure` komutunu çalıştırarak manuel configure edin.
+
+## Yapılandırma
+
+1. `s3.sh` dosyasını açın.
+2. `AWS_ACCESS_KEY`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION` ve `AWS_BUCKET_NAME` sabitlerini AWS erişim anahtarlarınız ve S3 bilgilerinizle güncelleyin.
+
+## Kullanım
+
+`/path/to/your/directory` kısmını dizininizin gerçek yoluna göre güncelleyin.
+Terminalde, `bash s3.sh` komutunu çalıştırarak yedeklemeyi S3'ye gönderin.
